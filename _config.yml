@@ -12,7 +12,7 @@ github_repo: "https://github.com/zlei12138/zlei12138.github.io.git" # you code r
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: about/img/avatar-lsg.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /about/img/avatar-lsf.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
