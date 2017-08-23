@@ -12,16 +12,16 @@ github_repo: "https://github.com/zlei12138/zlei12138.github.io.git" # you code r
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: img/avatar-m.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: about/img/avatar-lsf.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
 weibo_username:     zlei12138
-zhihu_username:     zlei_boom
+#zhihu_username:     zlei_boom
 github_username:    zlei12138
-facebook_username:  baiying.qiu.7
+#facebook_username:  baiying.qiu.7
 jianshu_username:   35467f476f6c
 #twitter_username:   qiubaiying
 
@@ -33,7 +33,7 @@ jianshu_username:   35467f476f6c
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
-paginate: 10
+paginate: 6
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
@@ -95,16 +95,14 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "重邮",
+        href: "http://www.cqupt.edu.cn/cqupt/index.shtml"
+        
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "知乎",
+        href: "https://www.zhihu.com/people/zlei_boom/activities"
     },{
-        title: "Apple",
-        href: "https://apple.com"
-    },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "AndroidDevTools",
+        href: "http://www.androiddevtools.cn/"
     }
 ]
