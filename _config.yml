@@ -104,5 +104,11 @@ friends: [
     },{
         title: "AndroidDevTools",
         href: "http://www.androiddevtools.cn/"
+    },{
+        title: "丁小华blog",
+        href: "dxhua.top"
+    },{
+        title: "丁小华github",
+        href: "https://github.com/Dxhua"
     }
 ]
