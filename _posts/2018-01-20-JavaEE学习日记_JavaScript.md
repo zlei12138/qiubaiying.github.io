@@ -14,6 +14,7 @@ tags:
 
 # 关于thead和tbody
 - 这个是放在table里面的，把表格的标题行和内容行分开
+
 ```html
 <table border="1" width="500" height="50" align="center" id="tbl">
     <thead>
@@ -159,6 +160,8 @@ element.replaceChild()替换元素中的子节点。
 
 例子：  
 在页面中使用列表显示一些城市
+
+
 ```html
 <ul>
 	<li>北京</li>
@@ -166,6 +169,8 @@ element.replaceChild()替换元素中的子节点。
 	<li>广州</li>
 </ul>
 ```
+
+
 我们希望点击一个按钮实现动态添加城市。  
 
 分析：  
@@ -175,7 +180,9 @@ element.replaceChild()替换元素中的子节点。
 	创建一个li元素节点  
 	将文本节点添加到li元素节点中去。  
 	使用element里面的方法appendChild()来添加子节点  
+	
 代码：  
+
 ```html
 <html>
 <head>
@@ -209,6 +216,7 @@ new Array(element0,element1,element2......)
 
 
 # 省市联动的例子
+
 ```html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
         "http://www.w3.org/TR/html4/loose.dtd">
@@ -310,6 +318,7 @@ substr()从起始索引号提取字符串中指定数目的字符。
 substring()提取字符串中两个指定的索引号之间的字符。  
 
 例子  
+
 ```javascript
 <script>
 	var str = "-a-b-c-d-e-f-";
@@ -334,6 +343,7 @@ test检索字符串中指定的值。返回 true 或 false。
 ![js全局函数](http://ovoxjpcrm.bkt.clouddn.com/a8bca5a1afff5c32e585d18c0036491f.png)
 
 例子：  
+
 ```html
 <script>
 	var str = "张三";
