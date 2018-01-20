@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Java EE学习日记_JavaScript
+title:      JavaEE学习日记_JavaScript
 subtitle:   JavaScript
 date:       2018-01-20
 author:     ZL
