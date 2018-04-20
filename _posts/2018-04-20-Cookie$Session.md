@@ -176,17 +176,19 @@ session作用范围：默认一会话中
   ```
 
 - 设置session  
+     
+     request.getSession()方法内部会判断 该客户端是否在服务器端已经存在session  
+     如果该客户端在此服务器不存在session 那么就会创建一个新的session对象  
+     如果该客户端在此服务器已经存在session 获得已经存在的该session返回  
+     
     ```java
     //创建属于该客户端(会话)的私有的session区域
-    /* request.getSession()方法内部会判断 该客户端是否在服务器端已经存在session
-     * 如果该客户端在此服务器不存在session 那么就会创建一个新的session对象
-     * 如果该客户端在此服务器已经存在session 获得已经存在的该session返回
-     */
     HttpSession session = request.getSession();
     
     session.setAttribute("name", "jerry");
     
     String id = session.getId();//该session对象的编号id
+    
     ```
 
 - 从session中获取数据  
