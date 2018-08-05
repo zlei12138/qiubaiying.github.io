@@ -275,7 +275,8 @@ Customer [cust_id=6, cust_name=customer6]]
 ```
 
 ### 左外连接  
-> 所有的“左”都会显示出来，这里“customer”是“左”，如果customer有对应的linkman，就把linkman也返回回来。没有就null。
+> 所有的“左”都会显示出来，这里“customer”是“左”，如果customer有对应的linkman，就把linkman也返回回来。没有就null。  
+
 ```java
 @Test
 //HQL 左外连接 => 将连接的两端对象分别返回.放到数组中.
@@ -296,8 +297,10 @@ public void fun3(){
   tx.commit();
   session.close();
 }
-```
+```  
+
 查询结果：返回Object数组  
+
 ```
 [Customer [cust_id=1, cust_name=customer1], cn.itcast.domain.LinkMan@1e7f19b4]
 [Customer [cust_id=1, cust_name=customer1], cn.itcast.domain.LinkMan@235b4cb8]
